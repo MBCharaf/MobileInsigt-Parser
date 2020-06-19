@@ -3,9 +3,9 @@
 #LTE_PHY_Serv_Cell_Measurement
 #LTE_PHY_Connected_Mode_Neighbor_Measurement
 
-from LteParser import LteParser
+from MiParser import MiParser
 
 
 if __name__=="__main__":
-    Parser = LteParser("lte-test.xml","LTE_PHY_Connected_Mode_Intra_Freq_Meas")
+    Parser = MiParser("lte-test.xml","LTE_PHY_Connected_Mode_Intra_Freq_Meas")
     Parser.run()
